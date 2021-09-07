@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "iran-sans";
+  src: url("../assets/font/iran-sanse-font/eot/IRANSansWeb\(FaNum\).eot")
+      format("embedded-opentype"),
+    url("../assets/font/iran-sanse-font/woff/IRANSansWeb\(FaNum\).woff")
+      format("woff"),
+    url("../assets/font/iran-sanse-font/ttf/IRANSansWeb\(FaNum\).ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "iran-sans-bold";
+  src: url("../assets/font/iran-sanse-font/eot/IRANSansWeb\(FaNum\)_Bold.eot")
+      format("embedded-opentype"),
+    url("../assets/font/iran-sanse-font/woff/IRANSansWeb\(FaNum\)_Bold.woff")
+      format("woff"),
+    url("../assets/font/iran-sanse-font/ttf/IRANSansWeb\(FaNum\)_Bold.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "iran-sans-light";
+  src: url("../assets/font/iran-sanse-font/eot/IRANSansWeb\(FaNum\)_Light.eot")
+      format("embedded-opentype"),
+    url("../assets/font/iran-sanse-font/woff/IRANSansWeb\(FaNum\)_Light.woff")
+      format("woff"),
+    url("../assets/font/iran-sanse-font/ttf/IRANSansWeb\(FaNum\)_Light.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "iran-sans-medium";
+  src: url("../assets/font/iran-sanse-font/eot/IRANSansWeb\(FaNum\)_Medium.eot")
+      format("embedded-opentype"),
+    url("../assets/font/iran-sanse-font/woff/IRANSansWeb\(FaNum\)_Medium.woff")
+      format("woff"),
+    url("../assets/font/iran-sanse-font/ttf/IRANSansWeb\(FaNum\)_Medium.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "iran-sans-ultra-light";
+  src: url("../assets/font/iran-sanse-font/eot/IRANSansWeb\(FaNum\)_UltraLight.eot")
+      format("embedded-opentype"),
+    url("../assets/font/iran-sanse-font/woff/IRANSansWeb\(FaNum\)_UltraLight.woff")
+      format("woff"),
+    url("../assets/font/iran-sanse-font/ttf/IRANSansWeb\(FaNum\)_UltraLight.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "iran-sans";
+  box-sizing: border-box;
+}
+
+body *,
+body *::after,
+body *::before {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  border: none;
+}
+textarea {
+  outline: none;
+}
+a:focus,
+button:focus {
+  outline: none;
+}
+a:hover {
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+
+.row {
+  margin: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* text color section */
+
+.black_txt {
+  color: #37393b;
+}
+.gray_txt {
+  color: #65666a;
+}
+.red_txt {
+  color: var(--primary-button);
+}
+.blue_txt {
+  color: var(--secondary--button);
+}
+
+/* end */
+
+/* text size section */
+
+.large_size_text {
+  font-size: 16px;
+}
+.medium_size_text {
+  font-size: 14px;
+}
+.small_size_text {
+  font-size: 12px;
+}
+
+/* end */
+
+/* border radius setion */
+
+.border-radius-3 {
+  border-radius: 3px;
+}
+.border-radius-6 {
+  border-radius: 6px;
+}
+.border-radius-7 {
+  border-radius: 7px;
+}
+.border-radius-9 {
+  border-radius: 9px;
+}
+
+/* end */
+
+:root {
+  --border-color: #eef0f5;
+  --primary-button: #e7305b;
+  --secondary--button: #40bfc1;
+}
